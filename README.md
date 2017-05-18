@@ -1,4 +1,6 @@
 # Git'er Done
+[![Build Status](https://travis-ci.org/gregwhitaker/giterdone.svg?branch=master)](https://travis-ci.org/gregwhitaker/giterdone)
+
 A simple command line shortcut that commits and pushes the current directory to Git with a meaningless commit message, because I'm lazy.
 
 ## Bugs and Feedback
