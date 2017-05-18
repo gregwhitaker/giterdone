@@ -6,7 +6,7 @@ A simple command line shortcut that commits and pushes the current directory to 
 ## Usage
 Add the binary to your path and then:
 
-  $ giterdone
+    $ giterdone
 
 ## Bugs and Feedback
 
