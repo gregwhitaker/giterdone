@@ -34,7 +34,8 @@ std::string GetCurrentWorkingDir( void ) {
 
 int main() {
     if (is_file_exists(GetCurrentWorkingDir() + "/.git")) {
-        std::cout << exec("git commit -am \"Doing work\"") << std::endl;
+        std::cout << exec("git add --all") << std::endl;
+        std::cout << exec("git commit -m \"Doing work\"") << std::endl;
         std::cout << exec("git push origin master") << std::endl;
         return 0;
     } else {
