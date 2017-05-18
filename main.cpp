@@ -4,6 +4,7 @@
 #include <unistd.h>
 #define GetCurrentDir getcwd
 #include <array>
+#include <string>
 #include <memory>
 #include <stdexcept>
 
