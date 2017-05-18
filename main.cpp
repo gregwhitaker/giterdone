@@ -4,6 +4,8 @@
 #include <unistd.h>
 #define GetCurrentDir getcwd
 #include <array>
+#include <memory>
+#include <stdexcept>
 
 std::string exec(const char* cmd) {
     std::array<char, 128> buffer;
